@@ -1,4 +1,3 @@
-DisCaddy
-========
+This is the repository for DisCaddy (working title), an all-in-one disc golf scorecard app!
 
-Source Code of DisCaddy application
+More to come!
