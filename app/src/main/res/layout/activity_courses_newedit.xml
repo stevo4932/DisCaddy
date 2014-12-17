@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.discaddy.CourseNewEdit">
+
+
+
+    <EditText android:id="@+id/course_new_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapWords"
+        android:layout_gravity="center_horizontal"
+        android:hint="Course Name (Required)"/>
+
+    <EditText android:id="@+id/course_new_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="Location"/>
+
+    <EditText android:id="@+id/course_new_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:hint="Phone Number"/>
+    <EditText android:id="@+id/course_new_website"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textWebEditText"
+        android:hint="Website Address"/>
+    <EditText android:id="@+id/course_new_rating"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Course Rating"/>
+    <Button
+        android:id="@+id/set_pars_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:onClick="setPars"
+        android:text="Set Par Values"/>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.discaddy.PlayerNewEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton android:id="@+id/image_edit_player"
+            android:contentDescription="@string/edit_image_description"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/add_photo"
+            android:onClick="updateImage"
+            android:scaleType="centerInside"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText android:id="@+id/name_edit_player"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textCapWords"
+            android:layout_marginTop="10dp"
+            android:hint="@string/edit_name"/>
+
+        <EditText android:id="@+id/course_edit_player"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:inputType="textCapWords"
+            android:hint="@string/edit_course"/>
+
+        <EditText android:id="@+id/score_edit_player"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp"
+            android:hint="@string/edit_score"/>
+
+        <EditText android:id="@+id/disk_edit_player"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textCapWords"
+            android:hint="@string/edit_disc"/>
+
+    </LinearLayout>
+</ScrollView>

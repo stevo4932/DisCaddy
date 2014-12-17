@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.discaddy.Scorecard">
+    <item android:id="@+id/action_scorecard_save"
+        android:title="Save Card"
+        android:icon="@android:drawable/ic_menu_save"
+        android:titleCondensed="Save"
+        android:alphabeticShortcut="s"
+        android:showAsAction="ifRoom" />
+</menu>

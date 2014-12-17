@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DisCaddy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_scorecard_button">New Scorecard</string>
+    <string name="recent_scorecards_button">Recent Scorecards</string>
+    <string name="players_button">Players</string>
+    <string name="find_a_course_button">Courses</string>
+    <string name="discs_button">Discs</string>
+    <string name="report_found_disc_button">Report Found Disc</string>
+    <string name="no_players">Add a player to get started!</string>
+    <string name="add_player">Add Player</string>
+    <string name="menu_delete">Delete Player</string>
+    <string name="player_name">Player Name: </string>
+    <string name="player_score">Player Score: </string>
+    <string name="player_fav_course">Favorite Course: </string>
+    <string name="player_disc">Favorite Disc: </string>
+    <string name="title_activity_new_scorecard">New Scorecard</string>
+    <string name="title_activity_recent_scorecards">Recent Scorecards</string>
+    <string name="title_activity_players">Players</string>
+    <string name="title_activity_find_acourse">Find A Course</string>
+    <string name="title_activity_discs">Discs</string>
+    <string name="title_activity_report_disc">Report a Disc</string>
+    <string name="title_activity_player_profile">Player Profile</string>
+    <string name="title_activity_scorecard">Scorecard</string>
+    <string name="edit_name">Name (Required)</string>
+    <string name="edit_course">Favorite Course</string>
+    <string name="edit_score">Top Score</string>
+    <string name="edit_disc">Favorite Disc</string>
+    <string name="edit_Submit">Submit</string>
+    <string name="edit_image">New Image</string>
+    <string name="edit_image_description">Profile Picture</string>
+    <string name="new_name">Name (Required)</string>
+    <string name="new_course">Favorite Course</string>
+    <string name="new_score">Top Score</string>
+    <string name="new_disc">Favorite Disc</string>
+    <string name="new_Submit">Submit</string>
+    <string name="new_image">Select Image</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_delete">Delete Profile</string>
+    <string name="title_activity_scorecard_viewer">Scorecard Viewer</string>
+    <string name="title_activity_course_profile">Course Profile</string>
+    <string name="title_activity_new_course">New Course</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="empty_course">No courses yet</string>
+    <string name="menu_courses_add">Add Course</string>
+    <string name="help">Help</string>
+    <string name="find_course">Find Courses</string>
+    <string name="title_activity_new_courses">New Courses</string>
+    <string name="title_activity_courses_profile">Courses Profile</string>
+    <string name="title_activity_edit_courses">Edit Courses</string>
+    <string name="title_activity_look_up_courses">Courses Near Me</string>
+    <string name="title_activity_course_web_view">Course Web Page</string>
+    <string name="title_activity_course_set_pars">Set Pars</string>
+    <string name="title_activity_course_new_edit">Course Edit</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_new_edit__course">NewEdit_Course</string>
+    <string name="title_activity_scorecard_select_course">Select A Course</string>
+    <string name="title_activity_new_scorecards">New Scorecard</string>
+    <string name="no_scorecards">No Recent Scorecards</string>
+    <string name="lookup_disc">Enter a Disc to Lookup</string>
+
+</resources>

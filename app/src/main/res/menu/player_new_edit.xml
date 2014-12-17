@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.discaddy.Player" >
+    <item android:id="@+id/action_save_player"
+        android:title="Save Player"
+        android:icon="@android:drawable/ic_menu_save"
+        android:titleCondensed="Save Player"
+        android:alphabeticShortcut="s"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_help_player"
+        android:title="Help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:titleCondensed="Help"
+        android:alphabeticShortcut="h"
+        android:showAsAction="ifRoom" />
+</menu>

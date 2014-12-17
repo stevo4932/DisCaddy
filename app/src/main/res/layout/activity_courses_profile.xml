@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.discaddy.CoursesProfile">
+
+    <TextView android:id="@+id/course_profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Course Name"/>
+
+    <TextView android:id="@+id/course_profile_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:autoLink="map"
+        android:gravity="center"
+        android:hint="Location"/>
+
+    <TextView android:id="@+id/course_profile_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:autoLink="phone"
+        android:gravity="center"
+        android:hint="Phone Number"/>
+    <TextView android:id="@+id/course_profile_website"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:autoLink="web"
+        android:gravity="center"
+        android:hint="Website Address"/>
+    <TextView android:id="@+id/course_profile_rating"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Course Rating"/>
+
+    <Button
+        android:id="@+id/set_pars_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="viewPars"
+        android:text="View Pars"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.discaddy.ScorecardViewer" >
+
+    <item android:id="@+id/action_delete_scorecard"
+        android:title="Delete Card"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:titleCondensed="Delete"
+        android:alphabeticShortcut="d"
+        android:showAsAction="ifRoom" />
+
+</menu>

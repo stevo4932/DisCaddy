@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.discaddy.Courses" >
+    <item android:id="@+id/action_add_course"
+        android:title="@string/menu_courses_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:titleCondensed="Add Course"
+        android:alphabeticShortcut="a"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_find_course"
+        android:title="@string/find_course"
+        android:icon="@android:drawable/ic_menu_search"
+        android:titleCondensed="Find Courses"
+        android:alphabeticShortcut="f"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_help_course"
+        android:title="@string/help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:titleCondensed="Help"
+        android:alphabeticShortcut="h"
+        android:showAsAction="ifRoom" />
+</menu>

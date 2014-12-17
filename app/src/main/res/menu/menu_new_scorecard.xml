@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.discaddy.NewScorecard" >
+
+    <item android:id="@+id/action_add_player"
+        android:title="Add New Player"
+        android:icon="@android:drawable/ic_menu_add"
+        android:titleCondensed="Add"
+        android:alphabeticShortcut="a"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_next"
+        android:title="Continue"
+        android:icon="@android:drawable/ic_menu_send"
+        android:titleCondensed="Next"
+        android:alphabeticShortcut="a"
+        android:showAsAction="ifRoom" />
+</menu>

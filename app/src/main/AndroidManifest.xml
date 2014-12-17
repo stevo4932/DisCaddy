@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.discaddy" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/discaddy_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.discaddy.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.discaddy.NewScorecard"
+            android:label="@string/title_activity_new_scorecard" >
+        </activity>
+        <activity
+            android:name="com.discaddy.RecentScorecards"
+            android:label="Scorecards" >
+        </activity>
+        <activity
+            android:name="com.discaddy.Player"
+            android:label="Player" >
+        </activity>
+        <activity
+            android:name="com.discaddy.Discs"
+            android:label="@string/title_activity_discs" >
+        </activity>
+        <activity
+            android:name="com.discaddy.PlayerProfile"
+            android:label="@string/title_activity_player_profile" >
+        </activity>
+        <activity
+            android:name="com.discaddy.PlayerNewEdit"
+            android:label="Player" >
+        </activity>
+        <activity
+            android:name="com.discaddy.Courses"
+            android:label="@string/title_activity_courses" >
+        </activity>
+        <activity
+            android:name="com.discaddy.CoursesNewEdit"
+            android:label="Courses" >
+        </activity>
+        <activity
+            android:name="com.discaddy.CoursesProfile"
+            android:label="@string/title_activity_courses_profile" >
+        </activity>
+        <activity
+            android:name="com.discaddy.CoursesLookUp"
+            android:label="@string/title_activity_look_up_courses" >
+        </activity>
+        <activity
+            android:name="com.discaddy.CoursesWebView"
+            android:label="@string/title_activity_course_web_view" >
+        </activity>
+        <activity
+            android:name="com.discaddy.CoursesSetPars"
+            android:label="@string/title_activity_course_set_pars" >
+        </activity>
+        <activity
+            android:name="com.discaddy.ScorecardSelectCourse"
+            android:label="@string/title_activity_scorecard_select_course" >
+        </activity>
+        <activity
+            android:name="com.discaddy.Scorecard"
+            android:label="@string/title_activity_new_scorecards" >
+        </activity>
+        <activity
+            android:name="com.discaddy.ScorecardViewer"
+            android:label="@string/title_activity_scorecard_viewer" >
+        </activity>
+    </application>
+
+</manifest>
